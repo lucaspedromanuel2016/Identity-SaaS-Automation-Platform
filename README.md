@@ -184,10 +184,21 @@ Workflow file:
 - Secure OAuth token handling
 
 ---
+# Docker Usage
 
+## Build Container
+
+```bash
+docker build -t iam-automation-platform .
+```
+
+## Run Container
+
+```bash
+docker run --env-file .env iam-automation-platform
+```
 # Future Enhancements
 
-- Docker containerization
 - Terraform infrastructure automation
 - Adaptive MFA
 - SCIM provisioning
